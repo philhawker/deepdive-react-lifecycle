@@ -6,7 +6,9 @@ export default class Rules extends Component {
     }
     render() {
         return (
-            <div>Rules....</div>
+            <div>
+                <h1>Rules....</h1>
+            </div>
         )
     }
 }

@@ -6,7 +6,9 @@ export default class Discussion extends Component {
     }
     render() {
         return (
-            <div>Discussion...</div>
+            <div>
+                <h1>Discussion...</h1>
+            </div>
         )
     }
 }
