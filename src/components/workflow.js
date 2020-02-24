@@ -4,7 +4,9 @@ export default class Workflow extends Component {
     // First
     constructor() {
         super();
-        this.state = {};
+        this.state = {
+            pageTitle: 'Workflow'
+        };
         console.log("constructor");
     }
 
