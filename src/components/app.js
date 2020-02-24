@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Navigation from './navigation'
+import PageContent from './page-content'
 
 
 export default class App extends Component {
@@ -6,6 +8,9 @@ export default class App extends Component {
     return (
       <div className='app'>
         <h1>DeepDive Lifecycle</h1>
+
+        <Navigation />
+        <PageContent />
       </div>
     );
   }
